@@ -1,0 +1,196 @@
+new("FLStock"
+    , catch = new("FLQuant"
+    , .Data = structure(c(2913.289, 1691.744, 1588.496, 994.835, 984.094, 3657.591, 
+2009.975, 2117.849), .Dim = c(1L, 8L, 1L, 1L, 1L, 1L), .Dimnames = structure(list(
+    age = "all", year = c("2007", "2008", "2009", "2010", "2011", 
+    "2012", "2013", "2014"), unit = "unique", season = "all", 
+    area = "unique", iter = "1"), .Names = c("age", "year", "unit", 
+"season", "area", "iter")))
+    , units = "NA NA"
+)
+    , catch.n = new("FLQuant"
+    , .Data = structure(c(36582, 29394, 13060, 1825, 12362, 20889, 8158, 708, 
+18687, 21834, 5132, 1030, 18791, 15068, 2451, 356, 8430, 10157, 
+3585, 1265, 122774, 41505, 11515, 1420, 37065, 27325, 6223, 723, 
+67008, 25183, 3435, 512), .Dim = c(4L, 8L, 1L, 1L, 1L, 1L), .Dimnames = structure(list(
+    age = c("0", "1", "2", "3"), year = c("2007", "2008", "2009", 
+    "2010", "2011", "2012", "2013", "2014"), unit = "unique", 
+    season = "all", area = "unique", iter = "1"), .Names = c("age", 
+"year", "unit", "season", "area", "iter")))
+    , units = "NA"
+)
+    , catch.wt = new("FLQuant"
+    , .Data = structure(c(0.013, 0.037, 0.082, 0.153, 0.013, 0.036, 0.081, 
+0.167, 0.014, 0.034, 0.086, 0.139, 0.013, 0.032, 0.088, 0.148, 
+0.013, 0.037, 0.089, 0.142, 0.009, 0.034, 0.081, 0.147, 0.013, 
+0.033, 0.083, 0.152, 0.013, 0.035, 0.084, 0.15), .Dim = c(4L, 
+8L, 1L, 1L, 1L, 1L), .Dimnames = structure(list(age = c("0", 
+"1", "2", "3"), year = c("2007", "2008", "2009", "2010", "2011", 
+"2012", "2013", "2014"), unit = "unique", season = "all", area = "unique", 
+    iter = "1"), .Names = c("age", "year", "unit", "season", 
+"area", "iter")))
+    , units = "NA"
+)
+    , discards = new("FLQuant"
+    , .Data = structure(c(0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(1L, 8L, 1L, 1L, 
+1L, 1L), .Dimnames = structure(list(age = "all", year = c("2007", 
+"2008", "2009", "2010", "2011", "2012", "2013", "2014"), unit = "unique", 
+    season = "all", area = "unique", iter = "1"), .Names = c("age", 
+"year", "unit", "season", "area", "iter")))
+    , units = "NA"
+)
+    , discards.n = new("FLQuant"
+    , .Data = structure(c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(4L, 8L, 
+1L, 1L, 1L, 1L), .Dimnames = structure(list(age = c("0", "1", 
+"2", "3"), year = c("2007", "2008", "2009", "2010", "2011", "2012", 
+"2013", "2014"), unit = "unique", season = "all", area = "unique", 
+    iter = "1"), .Names = c("age", "year", "unit", "season", 
+"area", "iter")))
+    , units = "NA"
+)
+    , discards.wt = new("FLQuant"
+    , .Data = structure(c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(4L, 8L, 
+1L, 1L, 1L, 1L), .Dimnames = structure(list(age = c("0", "1", 
+"2", "3"), year = c("2007", "2008", "2009", "2010", "2011", "2012", 
+"2013", "2014"), unit = "unique", season = "all", area = "unique", 
+    iter = "1"), .Names = c("age", "year", "unit", "season", 
+"area", "iter")))
+    , units = "NA"
+)
+    , landings = new("FLQuant"
+    , .Data = structure(c(1976, 1161, 1186, 786, 691, 2848, 1550, 1584), .Dim = c(1L, 
+8L, 1L, 1L, 1L, 1L), .Dimnames = structure(list(age = "all", 
+    year = c("2007", "2008", "2009", "2010", "2011", "2012", 
+    "2013", "2014"), unit = "unique", season = "all", area = "unique", 
+    iter = "1"), .Names = c("age", "year", "unit", "season", 
+"area", "iter")))
+    , units = "NA"
+)
+    , landings.n = new("FLQuant"
+    , .Data = structure(c(36582, 29394, 13060, 1825, 12362, 20889, 8158, 708, 
+18687, 21834, 5132, 1030, 18791, 15068, 2451, 356, 8430, 10157, 
+3585, 1265, 122774, 41505, 11515, 1420, 37065, 27325, 6223, 723, 
+67008, 25183, 3435, 512), .Dim = c(4L, 8L, 1L, 1L, 1L, 1L), .Dimnames = structure(list(
+    age = c("0", "1", "2", "3"), year = c("2007", "2008", "2009", 
+    "2010", "2011", "2012", "2013", "2014"), unit = "unique", 
+    season = "all", area = "unique", iter = "1"), .Names = c("age", 
+"year", "unit", "season", "area", "iter")))
+    , units = "NA"
+)
+    , landings.wt = new("FLQuant"
+    , .Data = structure(c(0.013, 0.037, 0.082, 0.153, 0.013, 0.036, 0.081, 
+0.167, 0.014, 0.034, 0.086, 0.139, 0.013, 0.032, 0.088, 0.148, 
+0.013, 0.037, 0.089, 0.142, 0.009, 0.034, 0.081, 0.147, 0.013, 
+0.033, 0.083, 0.152, 0.013, 0.035, 0.084, 0.15), .Dim = c(4L, 
+8L, 1L, 1L, 1L, 1L), .Dimnames = structure(list(age = c("0", 
+"1", "2", "3"), year = c("2007", "2008", "2009", "2010", "2011", 
+"2012", "2013", "2014"), unit = "unique", season = "all", area = "unique", 
+    iter = "1"), .Names = c("age", "year", "unit", "season", 
+"area", "iter")))
+    , units = "NA"
+)
+    , stock = new("FLQuant"
+    , .Data = structure(c(NA_real_, NA_real_, NA_real_, NA_real_, NA_real_, 
+NA_real_, NA_real_, NA_real_), .Dim = c(1L, 8L, 1L, 1L, 1L, 1L
+), .Dimnames = structure(list(age = "all", year = c("2007", "2008", 
+"2009", "2010", "2011", "2012", "2013", "2014"), unit = "unique", 
+    season = "all", area = "unique", iter = "1"), .Names = c("age", 
+"year", "unit", "season", "area", "iter")))
+    , units = "NA * NA"
+)
+    , stock.n = new("FLQuant"
+    , .Data = structure(c(245309.801597479, 99128.1015602421, 24175.069356035, 
+3093.94259402236, 177606.029431013, 65719.5399138124, 28125.4637477415, 
+2333.94218409911, 172487.447492491, 56020.2863952499, 17663.8184032463, 
+3389.61851470745, 235800.175638523, 50413.7257539937, 12232.6277873101, 
+1715.82636659411, 340776.289724472, 72954.670332909, 14220.3342970726, 
+4819.10833683448, 441682.868150326, 116622.577415933, 28745.9216841829, 
+3338.37657511886, 369943.376870142, 84326.3202901518, 28234.6097191139, 
+3161.31949759899, 370752.485135921, 109926.001019571, 22298.9817282137, 
+3224.296905303), .Dim = c(4L, 8L, 1L, 1L, 1L, 1L), .Dimnames = structure(list(
+    age = c("0", "1", "2", "3"), year = c("2007", "2008", "2009", 
+    "2010", "2011", "2012", "2013", "2014"), unit = "unique", 
+    season = "all", area = "unique", iter = "1"), .Names = c("age", 
+"year", "unit", "season", "area", "iter")))
+    , units = "NA"
+)
+    , stock.wt = new("FLQuant"
+    , .Data = structure(c(0.005523812, 0.040750994, 0.096831537, 0.20176959, 
+0.005523812, 0.040750994, 0.096831537, 0.20176959, 0.005523812, 
+0.040750994, 0.096831537, 0.20176959, 0.005523812, 0.040750994, 
+0.096831537, 0.20176959, 0.005523812, 0.040750994, 0.096831537, 
+0.20176959, 0.005523812, 0.040750994, 0.096831537, 0.20176959, 
+0.005523812, 0.040750994, 0.096831537, 0.20176959, 0.005523812, 
+0.040750994, 0.096831537, 0.20176959), .Dim = c(4L, 8L, 1L, 1L, 
+1L, 1L), .Dimnames = structure(list(age = c("0", "1", "2", "3"
+), year = c("2007", "2008", "2009", "2010", "2011", "2012", "2013", 
+"2014"), unit = "unique", season = "all", area = "unique", iter = "1"), .Names = c("age", 
+"year", "unit", "season", "area", "iter")))
+    , units = "NA"
+)
+    , m = new("FLQuant"
+    , .Data = structure(c(1.03, 0.71, 0.65, 0.62, 1.03, 0.71, 0.65, 0.62, 1.03, 
+0.71, 0.65, 0.62, 1.03, 0.71, 0.65, 0.62, 1.03, 0.71, 0.65, 0.62, 
+1.03, 0.71, 0.65, 0.62, 1.03, 0.71, 0.65, 0.62, 1.03, 0.71, 0.65, 
+0.62), .Dim = c(4L, 8L, 1L, 1L, 1L, 1L), .Dimnames = structure(list(
+    age = c("0", "1", "2", "3"), year = c("2007", "2008", "2009", 
+    "2010", "2011", "2012", "2013", "2014"), unit = "unique", 
+    season = "all", area = "unique", iter = "1"), .Names = c("age", 
+"year", "unit", "season", "area", "iter")))
+    , units = "NA"
+)
+    , mat = new("FLQuant"
+    , .Data = structure(c(0.16, 0.92, 1, 1, 0.16, 0.92, 1, 1, 0.16, 0.92, 1, 
+1, 0.16, 0.92, 1, 1, 0.16, 0.92, 1, 1, 0.16, 0.92, 1, 1, 0.16, 
+0.92, 1, 1, 0.16, 0.92, 1, 1), .Dim = c(4L, 8L, 1L, 1L, 1L, 1L
+), .Dimnames = structure(list(age = c("0", "1", "2", "3"), year = c("2007", 
+"2008", "2009", "2010", "2011", "2012", "2013", "2014"), unit = "unique", 
+    season = "all", area = "unique", iter = "1"), .Names = c("age", 
+"year", "unit", "season", "area", "iter")))
+    , units = "NA"
+)
+    , harvest = new("FLQuant"
+    , .Data = structure(c(0.287125615617052, 0.549737619652813, 1.37709394099763, 
+1.37709394099763, 0.12385389728681, 0.603877903013252, 0.513242517754774, 
+0.513242517754774, 0.200060991274948, 0.81160709152658, 0.514352963116516, 
+0.514352963116516, 0.14314643903258, 0.555590541354308, 0.324778209682548, 
+0.324778209682548, 0.0422833336034225, 0.221342391214824, 0.42912176526, 
+0.42912176526, 0.625898093697194, 0.708394366089514, 0.808362781319292, 
+0.808362781319292, 0.183542537028813, 0.620153022975168, 0.363907989449896, 
+0.363907989449896, 0.360231659445323, 0.395600532818251, 0.239781327235577, 
+0.239781327235577), .Dim = c(4L, 8L, 1L, 1L, 1L, 1L), .Dimnames = structure(list(
+    age = c("0", "1", "2", "3"), year = c("2007", "2008", "2009", 
+    "2010", "2011", "2012", "2013", "2014"), unit = "unique", 
+    season = "all", area = "unique", iter = "1"), .Names = c("age", 
+"year", "unit", "season", "area", "iter")))
+    , units = "f"
+)
+    , harvest.spwn = new("FLQuant"
+    , .Data = structure(c(0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 
+0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 
+0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3), .Dim = c(4L, 8L, 
+1L, 1L, 1L, 1L), .Dimnames = structure(list(age = c("0", "1", 
+"2", "3"), year = c("2007", "2008", "2009", "2010", "2011", "2012", 
+"2013", "2014"), unit = "unique", season = "all", area = "unique", 
+    iter = "1"), .Names = c("age", "year", "unit", "season", 
+"area", "iter")))
+    , units = "NA"
+)
+    , m.spwn = new("FLQuant"
+    , .Data = structure(c(0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 
+0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 
+0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3), .Dim = c(4L, 8L, 
+1L, 1L, 1L, 1L), .Dimnames = structure(list(age = c("0", "1", 
+"2", "3"), year = c("2007", "2008", "2009", "2010", "2011", "2012", 
+"2013", "2014"), unit = "unique", season = "all", area = "unique", 
+    iter = "1"), .Names = c("age", "year", "unit", "season", 
+"area", "iter")))
+    , units = "NA"
+)
+    , name = "Index File; MUL GSA 18\t"
+    , desc = "Imported from a VPA file. ( MUL18.IND ).  Mon Jan 11 17:49:25 2016 + FLAssess: "
+    , range = structure(c(0, 3, 3, 2007, 2014, 0, 2), .Names = c("min", "max", 
+"plusgroup", "minyear", "maxyear", "minfbar", "maxfbar"))
+)

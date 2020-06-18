@@ -1,0 +1,9 @@
+SuperDimension;Dimension;Name;Value
+Socioeconomic;Economic;k_GVA_ROI;0.008
+Socioeconomic;Economic;k_RBER;0.042
+Socioeconomic;Social;k_WAGE;0.064
+Socioeconomic;Social;k_EMPL;0.191
+Biological;Biological Conservation;k_SSB;0.26
+Biological;Biological Conservation;k_F;0.26
+Biological;Biological Production;k_Y;0.137
+Biological;Biological Production;k_D;0.036
