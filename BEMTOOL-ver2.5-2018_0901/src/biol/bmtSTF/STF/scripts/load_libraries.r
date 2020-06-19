@@ -24,10 +24,10 @@
 
 # Load the libraries
 library(FLCore)
-library(FLAssess)
-library(FLXSA)
-library(FLash)
-library(FLBRP)
+#library(FLAssess)
+#library(FLXSA)
+#library(FLash)
+#library(FLBRP)
 
 # Needed for FLAdvice
 library(ggplot2)

@@ -59,8 +59,8 @@ print("*************************************************************************
 cat("\n\n")
 
 BMTmain_window <<- gtkWindow(show=FALSE)
-BMTmain_window["title"] <- "BEMTOOL version 2.3-2017_2812"
-BMT_sw_version <<-  "BEMTOOL version 2.3-2017_2812"
+BMTmain_window["title"] <- "BEMTOOL version 2.5-2017_2812"
+BMT_sw_version <<-  "BEMTOOL version 2.5-2017_2812"
 
 BMTmain_window$setDefaultSize(1024, 300)
 gtkWindowSetResizable(BMTmain_window, FALSE)
