@@ -99,8 +99,8 @@ source(paste(getwd(), "/src/hr/eval/eval_scenarios_eco_forecast.r", sep=""))
 
 source(paste(getwd(), "/src/hr/runTrafficLights.r", sep=""))
 
-source(paste(getwd(), "/src/mcda/Functions.r", sep=""))
-source(paste(getwd(), "/src/mcda/Run_MCDA.r", sep=""))    
+source(paste(getwd(), "/src/mcda/Functions.R", sep=""))
+source(paste(getwd(), "/src/mcda/Run_MCDA.R", sep=""))    
 
 source(paste(getwd(), "/src/utils/iscorrect_answer.r", sep=""))
 source(paste(getwd(), "/src/utils/create_folders.r", sep=""))
