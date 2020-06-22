@@ -4,7 +4,7 @@
 2. Copy on your C disk the BMT_INPUT folder and create an empty folder named BMT_OUTPUT;
 3. Open R 3.0 and the script BEMTOOL.r;
 4. Set the directory where BEMTOOL.r script is located as working directory;
-5. Install the package ALADYMTools from the zip file in ALADYMtools library;
+5. Install the package ALADYMTools from the zip file in ALADYMtools library and run the script RUNme.r to install or load all the needed libraries;
 6. Run the script BEMTOOL.r;
 7. Click on Load case study definition and select the file bmtconfigSimulation_GSA10_DPS_HKE_MUT.csv, lcoated in the foldet BMT_INPUT;
 8. Click three times on NEXT button, verifying that all the tabs are filled in and, then click on RUN NEW Diagnosis. You need to run the new diagnosis only the first time that you rn the hindcasting phase. Next time, you can load existing diagnosis from the button in the GUI and go directly to the forecast.
