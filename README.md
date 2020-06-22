@@ -15,3 +15,7 @@
 13.For the three species, the first time that you run the hindcasting phase, the reference point are estimated (it needs more time). 
 14. When M. merluccius will be completed, the bEMTOOL tab of diagnosis will appear and you can consult the graphs of times series by stock and fleet segment, selecting the different tabs.
 15. Clicking on NEXT you can go on with forecast.
+16. LOAD Scenario configuration and select the forecast parameterization for the economic sub-models bmtconfigForecast_GSA10_DPS_HKE_MUT.csv. The status quo scenario is set by default in this example file, after loading it, you can modify the management measures from the BEMTOOL GUI.
+17. When you finished, click on RUN NEW SCENARIO. 
+17.For each species, ALADYM GUI will appear, with the possibility to include some infos to be included in the projections (e.g. uncertainty, selectivity, etc... see manual for details);
+18. When the third species will be completed, the BEMTOOL GUI will appear again to show the results of the projections. 
