@@ -4,4 +4,6 @@
 2. Copy on your C disk the BMT_INPUT folder and create an empty folder named BMT_OUTPUT;
 3. Open R 3.0 and the script BEMTOOL.r;
 4. Set the directory where BEMTOOL.r script is located as working directory;
-5. Follow the manual to load the example case study.
+5. Install the package ALADYMTools from the zip file in ALADYMtools library;
+6.
+
