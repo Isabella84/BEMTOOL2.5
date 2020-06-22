@@ -14,4 +14,4 @@
 12. Same for M. merluccius (aladym_HKE_GSA10_Zmode.csv).
 13.For the three species, the first time that you run the hindcasting phase, the reference point are estimated (it needs more time). 
 14. When M. merluccius will be completed, the bEMTOOL tab of diagnosis will appear and you can consult the graphs of times series by stock and fleet segment, selecting the different tabs.
-
+15. Clicking on NEXT you can go on with forecast.
