@@ -19,4 +19,4 @@
 17. When you finished, click on RUN NEW SCENARIO. 
 18.For each species, ALADYM GUI will appear, with the possibility to include some infos to be included in the projections (e.g. uncertainty, selectivity, etc... see manual for details);
 19. Before running the second species, close the window FORECAST in progress... and so on when will appear the third species;
-18. When the third species will be completed, the BEMTOOL GUI will appear again to show the results of the projections. 
+20. When the third species will be completed, the BEMTOOL GUI will appear again to show the results of the projections. 
