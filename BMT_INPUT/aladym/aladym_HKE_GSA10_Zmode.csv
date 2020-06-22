@@ -1,0 +1,78 @@
+Parameters;Distribution;Min;Max;A;B;;;;;;;
+Scientific name;;;;;;;;;;;;
+Common name;European hake;;;;;;;;;;;
+GSA;;;;;;;;;;;;
+start - end simulation - end forecast;;;;;;;;;;;;
+Years to be presimulated;45;;;;;;;;;;;
+Number of years for average;1;;;;;;;;;;;
+gears;;;;;;;;;;;;
+Sex ratio;0.5;;;;;;;;;;;
+L-W parameters - Male;;;;;;;;;;;;
+L-W parameters - Female;;;;;;;;;;;;
+Lifespan - Male;;;;;;;;;;;;
+Lifespan - Female;;;;;;;;;;;;
+Growth T0 - Male;3;-0.82;-0.82;;;;;;;;;
+Growth T0 - Female;3;-0.59;-0.59;;;;;;;;;
+Growth K - Male;3;0.133;0.133;;;;;;;;;
+Growth K - Female;3;0.101;0.101;;;;;;;;;
+Growth Linf - Male;3;730;730;;;;;;;;;
+Growth Linf - Female;3;1110;1110;;;;;;;;;
+Maturity Ogive L50 - Male;3;210;210;0;0;;;;;;;
+Maturity Ogive L75L25 - Male;3;45;45;0;0;;;;;;;
+Maturity Ogive L50 - Female;3;330;330;0;0;;;;;;;
+Maturity Ogive L75L25 - Female;3;45;45;0;0;;;;;;;
+Offspring R;3;70706.35;70706.35;0;0;;;;;;;
+Offspring proportion;0.05;0.05;0.15;0.15;0.05;0.05;0;0;0.15;0.15;0.1;0.1
+Recruitment file;C:\BMT_INPUT\aladym\M. mer\Recruitment.csv;;;;;;;;;;;
+Recruitment calibration;FALSE;35000;45000;;;;;;;;;
+Tr;2;;;;;;;;;;;
+Spawners;2;1;;;;;;;;;;
+Age range of F calculated - Male;;0;2;;;;;;;;;
+Age range of F calculated - Female;;0;2;;;;;;;;;
+M file - Male;C:\BMT_INPUT\aladym\M. mer\M.csv;;;;;;;;;;;
+M file - Female;C:\BMT_INPUT\aladym\M. mer\M.csv;;;;;;;;;;;
+Mortality type;Z;;;;;;;;;;;
+Z file;C:\BMT_INPUT\aladym\M. mer\Z.csv;;;;;;;;;;;
+F type;O;[allowed values: F, O];;;;;;;;;;
+F splitting type;P;[allowed values: CAA, P];;;;;;;;;;
+F file;;;;;;;;;;;;
+F overall file;;C:\GSA10\INPUT\aladym\M. mer\F overall_HKE_GSA10.csv;;;;;;;;;;
+Catch by age for splitting file;;;;;;;;;;;;
+Selectivity type;P;P;P;P;;;;;;;;
+Selectivity file;C:\BMT_INPUT\aladym\M. mer\Selectivity.csv;;;;;;;;;;;
+Selectivity file by age;;;;;;;;;;;;
+Selectivity file by length;;;;;;;;;;;;
+Production type;;;;;;;;;;;;
+Production file;;;;;;;;;;;;
+Discard file;C:\BMT_INPUT\aladym\M. mer\Discard data.csv;;;;;;;;;;;
+P production file;;;;;;;;;;;;
+Effort type;;;;;;;;;;;;
+Effort data file;;;;;;;;;;;;
+Fishing coefficient file;;;;;;;;;;;;
+Effort - F relationship;L;L;L;L;;;;;;;;[allowed values: L, P]
+Effort - F relationship a;0;0;0;0;;;;;;;;
+Effort - F relationship b;1;1;1;1;;;;;;;;
+Discard component;Y;Y;N;N;;;;;[allowed values: Y, 0, NA];;;
+Discard type;RO;RO;NA;NA;;;;;;;;[allowed values: V, RO]
+External Discard vector file;;;;;;;;;;;;
+Reverse-ogive Discard file;C:\BMT_INPUT\aladym\M. mer\Discard_reverse ogive.csv;;;;;;;;;;;
+Landing obligation file;C:\BMT_INPUT\aladym\M. mer\ALADYM landing obligation.csv;;;;;;;;;;;
+Survivability proportion;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333;0.083333333
+Discard survivability component;N;N;N;N;;;;;;;;[allowed values: Y, N]
+Discard survivability type;NA;NA;NA;NA;;;;;;;;[allowed values: C, DOS]
+Discard survivability parameters_F1;;;;;;;;;;;;[1st cell: males/param1, 2nd cell: females/param2]
+Discard survivability parameters_F2;;;;;;;;;;;;[1st cell: males/param1, 2nd cell: females/param2]
+Discard survivability parameters_F3;;;;;;;;;;;;
+Discard survivability parameters_F4;;;;;;;;;;;;
+Escape survivability component;N;N;N;N;;;;;;;;[allowed values: Y, N]
+Escape survivability type;NA;NA;NA;NA;;;;;;;;[allowed values: C, DOS]
+Escape survivability costant parameters_F1;;;;;;;;;;;;[1st cell: males, 2nd cell: females]
+Escape survivability costant parameters_F2;;;;;;;;;;;;
+Escape survivability costant parameters_F3;;;;;;;;;;;;
+Escape survivability costant parameters_F4;;;;;;;;;;;;
+Escape survivability DOS type;NA;NA;NA;NA;;;;;;;;[allowed values: O, V]
+DOS Escape survivability Ogive parameters_F1;;;;;;;;;;;;
+DOS Escape survivability Ogive parameters_F2;;;;;;;;;;;;
+DOS Escape survivability Ogive parameters_F3;;;;;;;;;;;;
+DOS Escape survivability Ogive parameters_F4;;;;;;;;;;;;
+DOS External Escape survivability vector file;;;;;;;;;;;;
