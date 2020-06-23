@@ -178,7 +178,7 @@ legend ("topright", lwd=c(1,1,2,1,1),lty=c(2,3,1,3,2),legend=c( "0.05","0.25","m
 #	  legend ("bottomright", lwd=c(1,1),lty=c(2,3),legend=c( "0.05", "0.95"),col=c("black","black"), bty="n" )
 }
 
-mtext(",000 €",col="red",side=2,line=4, cex=1.5)
+mtext(",000 ?",col="red",side=2,line=4, cex=1.5)
 mtext(plot_title_sub, 3, line=1, cex=1.3)
 
  mtext( BMT_sw_version,side=4,line=5,outer=FALSE)

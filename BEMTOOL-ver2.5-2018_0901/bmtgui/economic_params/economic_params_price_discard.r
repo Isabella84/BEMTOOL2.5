@@ -79,7 +79,7 @@ price_costant_byfleet_discard.sw$add(price_costant_byfleet_discard.treeview)
 bmt_hboxprice_costant_byfleet_discard$packStart(price_costant_byfleet_discard.sw , expand = T, T, 10)
 bmt_vboxprice_costant_byfleet_discard$packStart(bmt_hboxprice_costant_byfleet_discard , expand = F, F, 0)
 
-lbl_price_costant_byfleet_discard <<- gtkLabel(" Costant price (€) by fleet segment (b) ")
+lbl_price_costant_byfleet_discard <<- gtkLabel(" Costant price (?) by fleet segment (b) ")
 #vbox_economic_params_price$packStart(lbl_price_elast_landing_byfleet, expand = F, F, 5)
 #vbox_economic_params_price$packStart(bmt_vboxprice_elast_landing_byfleet , expand = F, F, 0)
 

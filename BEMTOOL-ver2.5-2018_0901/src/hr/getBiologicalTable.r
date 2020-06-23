@@ -58,7 +58,7 @@ if (BMT_SCENARIO == 4 | !ALADYM_flag) {
 #colnames(to_add) <-  head_table
 #table_output <- rbind(table_output, to_add)
 #}
-                       # se c'è la relazione di stock recruitment metto Fmsy altrimenti F0.1
+                       # se c'? la relazione di stock recruitment metto Fmsy altrimenti F0.1
 # reference points
      if (SR_relationship) {
      if (ALADYM_RP) {

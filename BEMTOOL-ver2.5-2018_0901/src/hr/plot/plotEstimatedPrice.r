@@ -148,7 +148,7 @@ plot(as.numeric(as.character(prices_toplot$Year)),prices_toplot_noNA,type="l",xl
 lines(as.numeric(as.character(prices_toplot$Year)),prices_toplot_noNA, type="p", col="blue", lwd=2, pch=19)     
 axis(1, at=as.numeric(as.character(prices_toplot$Year)),cex.axis=1.5 )
 axis(2, las=1, cex.axis=1.5)  ## las=1 makes horizontal labels
-mtext("price [€_kg]",side=2,line=5, cex=1.5)
+mtext("price [?_kg]",side=2,line=5, cex=1.5)
 mtext(plot_title_sub, 3, line=1, cex=1.3)
 
  if (phase == "FORECAST") {

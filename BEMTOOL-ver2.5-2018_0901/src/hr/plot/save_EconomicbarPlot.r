@@ -132,7 +132,7 @@ errbar(bp, counts, counts_sup, counts_inf, add=T, xlab="", pch=20)
 
  mtext( BMT_sw_version,side=4,outer=FALSE)
     
-mtext(",000 €",side=2,line=6, cex=1.5)
+mtext(",000 ?",side=2,line=6, cex=1.5)
 axis(1, labels = F, tick=F, cex.axis=1.5)
 mtext(plot_title_sub, 3, line=1, cex=1.3)
 box()

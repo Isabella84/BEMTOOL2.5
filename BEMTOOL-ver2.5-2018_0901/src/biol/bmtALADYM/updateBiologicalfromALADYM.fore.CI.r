@@ -110,7 +110,7 @@ Interactionsyear[[yy]][[ALADYM_spe]]@totaldiscard@totalweight.CI.perc[1,PERC] <-
 Interactionsyear[[yy]][[ALADYM_spe]]@totaldiscard@meanLength.CI.perc[1,PERC] <- Interactionsyear[[yy]][[ALADYM_spe]]@totaldiscard@meanLength
 Interactionsyear[[yy]][[ALADYM_spe]]@totaldiscard@meanWeight.CI.perc[1,PERC] <- Interactionsyear[[yy]][[ALADYM_spe]]@totaldiscard@meanWeight
 
-        # aggiunta del 28-12-2017 per memorizzare i percentili della F (in caso di incertezza della selettività sono necessari) 
+        # aggiunta del 28-12-2017 per memorizzare i percentili della F (in caso di incertezza della selettivit? sono necessari) 
     Interactionsyear[[yy]][[ALADYM_spe]]@totalcatch@fishing_mortality.CI.perc[1,PERC] <- Interactionsyear[[yy]][[ALADYM_spe]]@totalcatch@fishing_mortality
 
    
@@ -131,7 +131,7 @@ Interactionsyear[[yy]][[ALADYM_spe]]@interactions[[fleet_interaction_ord]]$catch
     Interactionsyear[[yy]][[ALADYM_spe]]@interactions[[fleet_interaction_ord]]$discards@meanLength.CI.perc <- percs_table_one_row
     Interactionsyear[[yy]][[ALADYM_spe]]@interactions[[fleet_interaction_ord]]$discards@meanWeight.CI.perc <- percs_table_one_row 
    
-    # aggiunta del 28-12-2017 per memorizzare i percentili della F (in caso di incertezza della selettività sono necessari)
+    # aggiunta del 28-12-2017 per memorizzare i percentili della F (in caso di incertezza della selettivit? sono necessari)
     Interactionsyear[[yy]][[ALADYM_spe]]@interactions[[fleet_interaction_ord]]$catches@fishing_mortality.CI.perc <- percs_table_one_row 
 
     }
@@ -148,7 +148,7 @@ Interactionsyear[[yy]][[ALADYM_spe]]@interactions[[fleet_interaction_ord]]$disca
 Interactionsyear[[yy]][[ALADYM_spe]]@interactions[[fleet_interaction_ord]]$discards@meanLength.CI.perc[1,PERC] <- Interactionsyear[[yy]][[ALADYM_spe]]@interactions[[fleet_interaction_ord]]$discards@meanLength
 Interactionsyear[[yy]][[ALADYM_spe]]@interactions[[fleet_interaction_ord]]$discards@meanWeight.CI.perc[1,PERC] <- Interactionsyear[[yy]][[ALADYM_spe]]@interactions[[fleet_interaction_ord]]$discards@meanWeight 
 
-        # aggiunta del 28-12-2017 per memorizzare i percentili della F (in caso di incertezza della selettività sono necessari) 
+        # aggiunta del 28-12-2017 per memorizzare i percentili della F (in caso di incertezza della selettivit? sono necessari) 
 Interactionsyear[[yy]][[ALADYM_spe]]@interactions[[fleet_interaction_ord]]$catches@fishing_mortality.CI.perc[1,PERC] <- Interactionsyear[[yy]][[ALADYM_spe]]@interactions[[fleet_interaction_ord]]$catches@fishing_mortality
         
   

@@ -11,7 +11,7 @@
 
 
 # install.packages(repos="http://flr-project.org/R")   ggplot2, gridExtra, akima
-# FLAdvice non c'è più sul rep R-CRAN
+# FLAdvice non c'? pi? sul rep R-CRAN
 # link a cui scaricare: http://flr-project.org/doku.php
 
 

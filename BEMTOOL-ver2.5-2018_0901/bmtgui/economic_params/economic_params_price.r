@@ -164,7 +164,7 @@ price_costant_byfleet_landing.sw$add(price_costant_byfleet_landing.treeview)
 bmt_hboxprice_costant_byfleet_landing$packStart(price_costant_byfleet_landing.sw , expand = T, T, 10)
 bmt_vboxprice_costant_byfleet_landing$packStart(bmt_hboxprice_costant_byfleet_landing , expand = F, F, 0)
 
-lbl_price_costant_byfleet_landing <<- gtkLabel(" Costant price (€) by fleet segment (d) ")
+lbl_price_costant_byfleet_landing <<- gtkLabel(" Costant price (?) by fleet segment (d) ")
 
 
 
