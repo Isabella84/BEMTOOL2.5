@@ -86,7 +86,15 @@ if (!IN_BEMTOOL | (IN_BEMTOOL & phase=="SIMULATION") ) {
 l_inf_lens <- c(0:(round(l_inf,0)+1))
 
 
-         FF_matrix <-  SelectivityLengthM_matrix 
+
+         FF_matrix <-  SelectivityLengthM_fore_matrix 
+		  
+		  for (r in 1:nrow(FF_matrix)) { 
+  FF_temp <- as.list(FF_matrix[r,]) 
+  SelectivityLength_M_fore_list <<- c(SelectivityLength_M_fore_list, list(FF_temp)) 
+  }
+  
+		 
    for (r in 1:nrow(FF_matrix)) { 
   FF_temp <- as.list(FF_matrix[r,]) 
   SelectivityLength_M_fore_list <<- c(SelectivityLength_M_fore_list, list(FF_temp)) 

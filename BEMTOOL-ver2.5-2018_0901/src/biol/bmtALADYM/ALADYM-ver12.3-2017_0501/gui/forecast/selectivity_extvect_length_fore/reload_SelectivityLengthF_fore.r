@@ -18,6 +18,7 @@
 # ------------------------------------------------------------------------------
 #
 reload_EMPTY_SelectivityLengthF_fore <- function(w) {
+print("Sono in reload_EMPTY_SelectivityLengthF_fore")
                            
 SelectivityLength_F_fore_list <<- list()
 SelectivityLength_F_foreIndex <<- 0
@@ -83,11 +84,13 @@ if (!IN_BEMTOOL | (IN_BEMTOOL & phase=="SIMULATION") ) {
 l_inf_lens <-c(0:(round(l_inf,0)+1))
 
 
-FF_matrix <-  SelectivityLengthF_matrix 
-   for (r in 1:nrow(FF_matrix)) { 
+
+FF_matrix <-  SelectivityLengthF_fore_matrix 
+
+ for (r in 1:nrow(FF_matrix)) { 
   FF_temp <- as.list(FF_matrix[r,]) 
   SelectivityLength_F_fore_list <<- c(SelectivityLength_F_fore_list, list(FF_temp)) 
-  }
+  }  
 
   SelectivityLength_F_fore.model <<- gtkListStoreNew( rep("gdouble", length(years_forecast)+1), "gboolean")  
   
