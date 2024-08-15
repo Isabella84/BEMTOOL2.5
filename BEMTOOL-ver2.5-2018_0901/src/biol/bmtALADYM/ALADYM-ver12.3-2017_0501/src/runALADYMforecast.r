@@ -48,7 +48,7 @@ cat("\n\n")
 
 if (!MEY_CALCULATION) {
 gtkWidgetSetSensitive(main_window, FALSE)
-wnd_fore <- showMessage("FORECAST in progress...")
+#wnd_fore <- showMessage("FORECAST in progress...")
 } else {
  if (MEY_LEVEL == 1) {
   gtkWidgetSetSensitive(main_window, FALSE)
@@ -74,7 +74,7 @@ source(paste(ALADYM_home, "/src/runALADYMforecast_bemtool_case_load_envs.r", sep
 } else {        
 
 
-# 같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같END in BEMTOOL
+# 째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째END in BEMTOOL
 
 if (length(new_aldForecast@target_F) == 0)  {     # ----------------------------------------------- different from REDUCTION OF F scenario
     Ref_point <-  NA     # Reference point per short e medium term forecast            
@@ -191,7 +191,7 @@ multipliers = matrix(nrow=forecast_simulation, ncol=nb_gears)
 # caso in cui sto usando le riduzioni forzate, i fishing coefficient sono uguali a 1
 INP$Fishing_efforts[(forecast):nrow(INP$Fishing_efforts),] <- 1  
 
-# si innesta il codice dei CI *********************************************************************** 같같같같같같같같같같같같같같같같같?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# si innesta il codice dei CI *********************************************************************** 째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 if (!RUN_CI_FORE) {
@@ -266,7 +266,7 @@ fishing_eff_result <- fact_calc(eff_data,"Y")
 
 
 
-# si innesta il codice dei CI *********************************************************************** 같같같같같같같같같같같같같같같같같?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# si innesta il codice dei CI *********************************************************************** 째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째째?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 if (!RUN_CI_FORE) {
