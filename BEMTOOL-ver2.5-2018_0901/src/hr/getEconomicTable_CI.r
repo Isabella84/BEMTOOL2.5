@@ -122,83 +122,83 @@ to_add13_discard <- data.frame(  cbind(rep("total.discards", n=5), cbind(round(v
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add13_discard)  
 
 var14 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@total.revenues.CI.perc   ))
-to_add14 <- data.frame(  cbind(rep("total.revenues", n=5), cbind(round(var14,numb_digits), cbind(rep("€", n=5), percentiles_numb) ) ) , stringsAsFactors=F)  
+to_add14 <- data.frame(  cbind(rep("total.revenues", n=5), cbind(round(var14,numb_digits), cbind(rep("?", n=5), percentiles_numb) ) ) , stringsAsFactors=F)  
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add14)
 
 var14_land <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@total.revenues.landings.CI.perc   ))
-to_add14_land <- data.frame(  cbind(rep("total.revenues.landing", n=5), cbind(round(var14_land,numb_digits), cbind(rep("€", n=5), percentiles_numb) ) ) , stringsAsFactors=F)  
+to_add14_land <- data.frame(  cbind(rep("total.revenues.landing", n=5), cbind(round(var14_land,numb_digits), cbind(rep("?", n=5), percentiles_numb) ) ) , stringsAsFactors=F)  
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add14_land)
 
 var14_disc <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@total.revenues.landed_discard.CI.perc   ))
-to_add14_disc <- data.frame(  cbind(rep("total.revenues.discard", n=5), cbind(round(var14_disc,numb_digits), cbind(rep("€", n=5), percentiles_numb) ) ) , stringsAsFactors=F)  
+to_add14_disc <- data.frame(  cbind(rep("total.revenues.discard", n=5), cbind(round(var14_disc,numb_digits), cbind(rep("?", n=5), percentiles_numb) ) ) , stringsAsFactors=F)  
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add14_disc)
 
 var17 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@variable.cost.CI.perc$tot.var.cost  ))
-to_add17 <- data.frame( cbind(rep("variable.cost[tot.var.cost]", n=5), cbind(round(var17,numb_digits), cbind(rep( "€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+to_add17 <- data.frame( cbind(rep("variable.cost[tot.var.cost]", n=5), cbind(round(var17,numb_digits), cbind(rep( "?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add17)  
 
 var18 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@variable.cost.CI.perc$fuel.cost   ))
-to_add18 <- data.frame(  cbind(rep("variable.cost[fuel.cost]", n=5), cbind(round(var18,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add18 <- data.frame(  cbind(rep("variable.cost[fuel.cost]", n=5), cbind(round(var18,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add18)
 
 var19 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@variable.cost.CI.perc$commercial.cost   ))
-to_add19 <- data.frame( cbind(rep("variable.cost[commercial.cost]", n=5), cbind(round(var19,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+to_add19 <- data.frame( cbind(rep("variable.cost[commercial.cost]", n=5), cbind(round(var19,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add19)
 
 var20 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@variable.cost.CI.perc$other.var.cost  ))
-to_add20 <- data.frame(  cbind(rep("variable.cost[other.var.cost]", n=5), cbind(round(var20,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add20 <- data.frame(  cbind(rep("variable.cost[other.var.cost]", n=5), cbind(round(var20,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add20)
 
 var22 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@fixed.cost.CI.perc$tot.fix.cost   ))
-to_add22 <- data.frame(  cbind(rep("fixed.cost[tot.fix.cost]", n=5), cbind( round(var22,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+to_add22 <- data.frame(  cbind(rep("fixed.cost[tot.fix.cost]", n=5), cbind( round(var22,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add22)
 
 var23 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@fixed.cost.CI.perc$maint.cost    )) 
-to_add23 <- data.frame(  cbind(rep("fixed.cost[maint.cost]", n=5), cbind(round(var23,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
+to_add23 <- data.frame(  cbind(rep("fixed.cost[maint.cost]", n=5), cbind(round(var23,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add23)
 
 var24 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@fixed.cost.CI.perc$other.fix.cost   ))  
-to_add24 <- data.frame(  cbind(rep("fixed.cost[other.fix.cost]", n=5), cbind( round(var24,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
+to_add24 <- data.frame(  cbind(rep("fixed.cost[other.fix.cost]", n=5), cbind( round(var24,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add24)
 
 var25 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@fixed.cost.CI.perc$ess.cost        ))  
-to_add25 <- data.frame(  cbind(rep("fixed.cost[ess.cost]", n=5), cbind(round(var25,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add25 <- data.frame(  cbind(rep("fixed.cost[ess.cost]", n=5), cbind(round(var25,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add25)
 
 var26 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@fixed.cost.CI.perc$avoid.main.cost  ))  
-to_add26 <- data.frame( cbind(rep("fixed.cost[avoid.main.cost]", n=5), cbind( round(var26,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add26 <- data.frame( cbind(rep("fixed.cost[avoid.main.cost]", n=5), cbind( round(var26,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add26)
 
 var27 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@fixed.cost.CI.perc$unavoid.main.cost  )) 
-to_add27 <- data.frame(  cbind(rep("fixed.cost[unavoid.main.cost]", n=5), cbind(round(var27,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add27 <- data.frame(  cbind(rep("fixed.cost[unavoid.main.cost]", n=5), cbind(round(var27,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add27)
 
 var27_bis <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@fixed.cost.CI.perc$new.equipment.cost  )) 
-to_add27_bis <- data.frame(  cbind(rep("new.equipment.cost", n=5), cbind( round(var27_bis,numb_digits),cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add27_bis <- data.frame(  cbind(rep("new.equipment.cost", n=5), cbind( round(var27_bis,numb_digits),cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add27_bis)
 
 var28 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@labour.cost.CI.perc       ))            
-to_add28 <- data.frame(  cbind(rep("labour.cost", n=5), cbind( round(var28,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add28 <- data.frame(  cbind(rep("labour.cost", n=5), cbind( round(var28,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add28)
 
 var29 <- rep(as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@capital.cost$tot.cap.cost[1]  )) , n=5)
-to_add29 <- data.frame(  cbind(rep("capital.cost[tot.cap.cost]", n=5), cbind( round(var29,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add29 <- data.frame(  cbind(rep("capital.cost[tot.cap.cost]", n=5), cbind( round(var29,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add29)
 
 var32 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@total.cost.CI.perc            ))     
-to_add32 <- data.frame( cbind(rep("total.cost", n=5), cbind(round(var32,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+to_add32 <- data.frame( cbind(rep("total.cost", n=5), cbind(round(var32,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add32)
 
 var33 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@gross.value.added.CI.perc     ))  
-to_add33 <- data.frame( cbind(rep("gross.value.added", n=5), cbind(round(var33,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add33 <- data.frame( cbind(rep("gross.value.added", n=5), cbind(round(var33,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add33)
 
 var34 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@gross.cash.flow.CI.perc     ))   
-to_add34 <- data.frame( cbind(rep("gross.cash.flow", n=5), cbind( round(var34,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add34 <- data.frame( cbind(rep("gross.cash.flow", n=5), cbind( round(var34,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add34)
 
 var35 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@profit.CI.perc             ))    
-to_add35 <- data.frame( cbind(rep("profit", n=5), cbind( round(var35,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add35 <- data.frame( cbind(rep("profit", n=5), cbind( round(var35,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add35) 
 
 var36 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@investment.CI.perc$number   ))
@@ -206,15 +206,15 @@ to_add36 <- data.frame( cbind(rep("investment[number]", n=5), cbind( round(var36
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add36)
 
 var37 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@investment.CI.perc$value  ))  
-to_add37 <- data.frame( cbind(rep("investment[value]", n=5), cbind(round(var37,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+to_add37 <- data.frame( cbind(rep("investment[value]", n=5), cbind(round(var37,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add37)
 
 var38 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@capital.value.CI.perc     ))   
-to_add38 <- data.frame( cbind(rep("capital.value", n=5), cbind( round(var38,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add38 <- data.frame( cbind(rep("capital.value", n=5), cbind( round(var38,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add38) 
 
 var40 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@net.profit.CI.perc    ))     
-to_add40 <- data.frame( cbind(rep("net.profit", n=5), cbind( round(var40,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
+to_add40 <- data.frame( cbind(rep("net.profit", n=5), cbind( round(var40,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add40)
 
 var41 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@employment.CI.perc     ))    
@@ -222,11 +222,11 @@ to_add41 <- data.frame( cbind(rep("employment", n=5), cbind( round(var41,numb_di
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add41)
 
 var42 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@average.wage.CI.perc    ))   
-to_add42 <- data.frame( cbind(rep("average.wage", n=5), cbind(round(var42,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
+to_add42 <- data.frame( cbind(rep("average.wage", n=5), cbind(round(var42,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add42)
 
 var44 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@EC.BER.CI.perc )) 
-to_add44 <- data.frame( cbind(rep("Economic.indicators[break.even.revenue]", n=5), cbind(round(var44,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add44 <- data.frame( cbind(rep("Economic.indicators[break.even.revenue]", n=5), cbind(round(var44,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add44)
 
 var45 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@EC.ROI.CI.perc            ))   
@@ -234,7 +234,7 @@ to_add45 <- data.frame( cbind(rep("Economic.indicators[ROI]",n=5), cbind(round(v
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add45)  
 
 var46 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@EC.NPV.discounted.CI.perc        ))   
-to_add46 <- data.frame( cbind(rep("Economic.indicators[NPV.discounted]",,n=5), cbind( round(var46,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
+to_add46 <- data.frame( cbind(rep("Economic.indicators[NPV.discounted]",,n=5), cbind( round(var46,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add46)
 
 var47 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@EC.tot.landings.day.CI.perc ))  
@@ -246,27 +246,27 @@ to_add48 <- data.frame( cbind(rep("Economic.indicators[tot.landings.vessel]",n=5
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add48)
 
 var49 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@EC.tot.revenues.day.CI.perc ))     
-to_add49 <- data.frame( cbind(rep("Economic.indicators[tot.revenues.day]",n=5), cbind( round(var49,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add49 <- data.frame( cbind(rep("Economic.indicators[tot.revenues.day]",n=5), cbind( round(var49,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add49)
 
 var50 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@EC.tot.revenues.vessel.CI.perc  )) 
-to_add50 <- data.frame( cbind(rep("Economic.indicators[tot.revenues.vessel]",n=5), cbind(round(var50,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
+to_add50 <- data.frame( cbind(rep("Economic.indicators[tot.revenues.vessel]",n=5), cbind(round(var50,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add50)
 
 var51 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@EC.GVA.vessel.CI.perc    ))    
-to_add51 <- data.frame( cbind(rep("Economic.indicators[GVA.vessel]",n=5), cbind(round(var51,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add51 <- data.frame( cbind(rep("Economic.indicators[GVA.vessel]",n=5), cbind(round(var51,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add51)
 
 var52 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@EC.GCF.vessel.CI.perc      )) 
-to_add52 <- data.frame( cbind(rep("Economic.indicators[GCF.vessel]",n=5), cbind( round(var52,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
+to_add52 <- data.frame( cbind(rep("Economic.indicators[GCF.vessel]",n=5), cbind( round(var52,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)  
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add52)
 
 var53 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@EC.profit.vessel.CI.perc   ))  
-to_add53 <- data.frame( cbind(rep("Economic.indicators[profit.vessel]",n=5), cbind(round(var53,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add53 <- data.frame( cbind(rep("Economic.indicators[profit.vessel]",n=5), cbind(round(var53,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add53)
 
 var54 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@EC.net.profit.vessel.CI.perc )) 
-to_add54 <- data.frame( cbind(rep("Economic.indicators[net.profit.vessel]",n=5), cbind(round(var54,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add54 <- data.frame( cbind(rep("Economic.indicators[net.profit.vessel]",n=5), cbind(round(var54,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
 temp_indicators_by_fleet <- rbind(temp_indicators_by_fleet, to_add54)
 
 var54_1 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@EC.R_BER.CI.perc )) 
@@ -352,88 +352,88 @@ var41_tot <- rowSums(cbind(as.numeric(as.character(var41_tot)) , as.numeric(as.c
      to_add13_tot_disc <- data.frame( cbind(rep("total.discards", n=5), cbind(round(var13_tot_discard,numb_digits), cbind(rep("kg", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
  temp_indicators_fleet_overall <-  rbind(temp_indicators_fleet_overall, to_add13_tot_disc)    
     
-    to_add14_tot <- data.frame( cbind(rep("total.revenues", n=5), cbind( round(var14_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add14_tot <- data.frame( cbind(rep("total.revenues", n=5), cbind( round(var14_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add14_tot) 
 
-to_add14_tot_land <- data.frame( cbind(rep("total.revenues.landing", n=5), cbind( round(var14_tot_land,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add14_tot_land <- data.frame( cbind(rep("total.revenues.landing", n=5), cbind( round(var14_tot_land,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add14_tot_land)
 
-to_add14_tot_disc <- data.frame( cbind(rep("total.revenues.discard", n=5), cbind( round(var14_tot_disc,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+to_add14_tot_disc <- data.frame( cbind(rep("total.revenues.discard", n=5), cbind( round(var14_tot_disc,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add14_tot_disc)     
     
-    to_add15_tot <- data.frame( cbind(rep("other.income", n=5), cbind( round(var15_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add15_tot <- data.frame( cbind(rep("other.income", n=5), cbind( round(var15_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
  temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add15_tot)   
         
-    to_add17_tot <- data.frame( cbind(rep("variable.cost[tot.var.cost]", n=5), cbind( round(var17_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add17_tot <- data.frame( cbind(rep("variable.cost[tot.var.cost]", n=5), cbind( round(var17_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
  temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add17_tot)   
     
-    to_add18_tot <- data.frame( cbind(rep("variable.cost[fuel.cost]", n=5), cbind(round(var18_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+    to_add18_tot <- data.frame( cbind(rep("variable.cost[fuel.cost]", n=5), cbind(round(var18_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add18_tot)  
     
-    to_add19_tot <- data.frame( cbind(rep("variable.cost[commercial.cost]", n=5), cbind(round(var19_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+    to_add19_tot <- data.frame( cbind(rep("variable.cost[commercial.cost]", n=5), cbind(round(var19_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add19_tot)  
     
-    to_add20_tot <- data.frame( cbind(rep("variable.cost[other.var.cost]", n=5), cbind(round(var20_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+    to_add20_tot <- data.frame( cbind(rep("variable.cost[other.var.cost]", n=5), cbind(round(var20_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add20_tot)  
     
-    to_add22_tot <- data.frame( cbind(rep("fixed.cost[tot.fix.cost]", n=5), cbind( round(var22_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add22_tot <- data.frame( cbind(rep("fixed.cost[tot.fix.cost]", n=5), cbind( round(var22_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add22_tot)  
     
-    to_add23_tot <- data.frame( cbind(rep("fixed.cost[maint.cost]", n=5), cbind(round(var23_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add23_tot <- data.frame( cbind(rep("fixed.cost[maint.cost]", n=5), cbind(round(var23_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add23_tot)  
     
-    to_add24_tot <- data.frame( cbind(rep("fixed.cost[other.fix.cost]", n=5), cbind( round(var24_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+    to_add24_tot <- data.frame( cbind(rep("fixed.cost[other.fix.cost]", n=5), cbind( round(var24_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add24_tot)  
     
-    to_add25_tot <- data.frame( cbind(rep("fixed.cost[ess.cost]", n=5), cbind( round(var25_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add25_tot <- data.frame( cbind(rep("fixed.cost[ess.cost]", n=5), cbind( round(var25_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add25_tot)  
     
-    to_add26_tot <- data.frame( cbind(rep("fixed.cost[avoid.main.cost]", n=5), cbind(round(var26_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+    to_add26_tot <- data.frame( cbind(rep("fixed.cost[avoid.main.cost]", n=5), cbind(round(var26_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add26_tot)  
     
-    to_add27_tot <- data.frame( cbind(rep("fixed.cost[unavoid.main.cost]", n=5), cbind( round(var27_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ), stringsAsFactors=F )
+    to_add27_tot <- data.frame( cbind(rep("fixed.cost[unavoid.main.cost]", n=5), cbind( round(var27_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ), stringsAsFactors=F )
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add27_tot) 
 	
-	    to_add27_tot_bis <- data.frame( cbind(rep("new.equipment.cost", n=5), cbind( round(var27_tot_bis,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+	    to_add27_tot_bis <- data.frame( cbind(rep("new.equipment.cost", n=5), cbind( round(var27_tot_bis,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add27_tot_bis)   
     
-    to_add28_tot <- data.frame( cbind(rep("labour.cost", n=5), cbind(round(var28_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add28_tot <- data.frame( cbind(rep("labour.cost", n=5), cbind(round(var28_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add28_tot)  
     
     
-    to_add29_tot <-  data.frame( cbind(rep("capital.cost[tot.cap.cost]", n=5), cbind(round(rep(var29_tot, n=5),numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add29_tot <-  data.frame( cbind(rep("capital.cost[tot.cap.cost]", n=5), cbind(round(rep(var29_tot, n=5),numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add29_tot)  
     
     
-    to_add32_tot <- data.frame( cbind(rep("total.cost", n=5), cbind( round(var32_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add32_tot <- data.frame( cbind(rep("total.cost", n=5), cbind( round(var32_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
  temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add32_tot)   
     
-    to_add33_tot <- data.frame( cbind(rep("gross.value.added", n=5), cbind( round(var33_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add33_tot <- data.frame( cbind(rep("gross.value.added", n=5), cbind( round(var33_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add33_tot)  
     
-    to_add34_tot <- data.frame( cbind(rep("gross.cash.flow", n=5), cbind( round(var34_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add34_tot <- data.frame( cbind(rep("gross.cash.flow", n=5), cbind( round(var34_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
    temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add34_tot) 
     
-    to_add35_tot <- data.frame( cbind(rep("profit", n=5), cbind( round(var35_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add35_tot <- data.frame( cbind(rep("profit", n=5), cbind( round(var35_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
    temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add35_tot) 
     
     to_add36_tot <- data.frame( cbind(rep("investment[number]", n=5), cbind( round(var36_tot,numb_digits), cbind(rep("number", n=5), percentiles_numb)) ) , stringsAsFactors=F)
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add36_tot)  
     
-    to_add37_tot <- data.frame( cbind(rep("investment[value]", n=5), cbind( round(var37_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add37_tot <- data.frame( cbind(rep("investment[value]", n=5), cbind( round(var37_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
    temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add37_tot) 
     
-    to_add38_tot <- data.frame( cbind(rep("capital.value", n=5), cbind( round(var38_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add38_tot <- data.frame( cbind(rep("capital.value", n=5), cbind( round(var38_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
    temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add38_tot) 
     
-    to_add40_tot <- data.frame( cbind(rep("net.profit", n=5), cbind( round(var40_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add40_tot <- data.frame( cbind(rep("net.profit", n=5), cbind( round(var40_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add40_tot)  
     
     to_add41_tot <- data.frame( cbind(rep("employment", n=5), cbind( round(var41_tot,numb_digits), cbind(rep("number", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
   temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add41_tot)    
 
     var42_tot <- as.numeric(as.character(var28_tot))/as.numeric(as.character(var41_tot))
-    to_add42_tot <- data.frame( cbind(rep("average.wage", n=5), cbind( round(var42_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add42_tot <- data.frame( cbind(rep("average.wage", n=5), cbind( round(var42_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
     temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add42_tot) 
     
     # var44_tot <- (as.numeric(as.character(var28_tot))+as.numeric(as.character(var22_tot))+as.numeric(as.character(var29_tot)))/(1-(as.numeric(as.character(var17_tot))/as.numeric(as.character(var14_tot))))
@@ -454,7 +454,7 @@ to_add14_tot_disc <- data.frame( cbind(rep("total.revenues.discard", n=5), cbind
   # DETERMINISTIC CODE
  # var44_tot <- sum(as.numeric(as.character(var22_tot)),as.numeric(as.character(var29_tot)), na.rm=T)/ (1-(  sum(as.numeric(as.character(var28_tot)), as.numeric(as.character(var17_tot)) ,  as.numeric(as.character(var23_tot)) , na.rm=T) /sum(as.numeric(as.character(var14_tot)) ,as.numeric(as.character(var14_tot_discard )), na.rm=T) ))
 
-    to_add44_tot <- data.frame( cbind(rep("Economic.indicators[break.even.revenue]", n=5), cbind(round(var44_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+    to_add44_tot <- data.frame( cbind(rep("Economic.indicators[break.even.revenue]", n=5), cbind(round(var44_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
         temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add44_tot) 
         
         R_BER_all  <-  var14_tot / var44_tot
@@ -463,11 +463,11 @@ to_add14_tot_disc <- data.frame( cbind(rep("total.revenues.discard", n=5), cbind
         temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add_R_BER_all) 
    
     ROFTA_with_NP_all <- as.numeric(as.character(var40_tot))/as.numeric(as.character(var38_tot))
-    to_addROFTA_with_NP_all <- data.frame( cbind(rep("Economic.indicators[NP.cap.value]", n=5), cbind(round(ROFTA_with_NP_all,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_addROFTA_with_NP_all <- data.frame( cbind(rep("Economic.indicators[NP.cap.value]", n=5), cbind(round(ROFTA_with_NP_all,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
     temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_addROFTA_with_NP_all) 
 
         var45_tot <- as.numeric(as.character(var35_tot))/as.numeric(as.character(var38_tot))
-    to_add45_tot <- data.frame( cbind(rep("Economic.indicators[ROI]", n=5), cbind(round(var45_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add45_tot <- data.frame( cbind(rep("Economic.indicators[ROI]", n=5), cbind(round(var45_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
           temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add45_tot) 
           
      var47_tot <- as.numeric(as.character(var13_tot))/as.numeric(as.character(var9_tot))   
@@ -479,27 +479,27 @@ to_add14_tot_disc <- data.frame( cbind(rep("total.revenues.discard", n=5), cbind
            temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add48_tot) 
            
         var49_tot <- as.numeric(as.character(var14_tot))/as.numeric(as.character(var9_tot))
-    to_add49_tot <- data.frame( cbind(rep("Economic.indicators[tot.revenues.day]", n=5), cbind(round(var49_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add49_tot <- data.frame( cbind(rep("Economic.indicators[tot.revenues.day]", n=5), cbind(round(var49_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
            temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add49_tot) 
            
         var50_tot <- as.numeric(as.character(var14_tot))/as.numeric(as.character(var1_tot))    
-    to_add50_tot <- data.frame( cbind(rep("Economic.indicators[tot.revenues.vessel]", n=5), cbind( round(var50_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F)
+    to_add50_tot <- data.frame( cbind(rep("Economic.indicators[tot.revenues.vessel]", n=5), cbind( round(var50_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F)
           temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add50_tot) 
           
       var51_tot <- as.numeric(as.character(var33_tot))/as.numeric(as.character(var1_tot))  
-    to_add51_tot <- data.frame( cbind(rep("Economic.indicators[GVA.vessel]", n=5), cbind( round(var51_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add51_tot <- data.frame( cbind(rep("Economic.indicators[GVA.vessel]", n=5), cbind( round(var51_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
           temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add51_tot) 
           
       var52_tot <- as.numeric(as.character(var34_tot))/as.numeric(as.character(var1_tot))  
-    to_add52_tot <- data.frame( cbind(rep("Economic.indicators[GCF.vessel]", n=5), cbind( round(var52_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add52_tot <- data.frame( cbind(rep("Economic.indicators[GCF.vessel]", n=5), cbind( round(var52_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
          temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add52_tot) 
          
         var53_tot <- as.numeric(as.character(var35_tot))/as.numeric(as.character(var1_tot))
-    to_add53_tot <- data.frame( cbind(rep("Economic.indicators[profit.vessel]", n=5), cbind( round(var53_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
+    to_add53_tot <- data.frame( cbind(rep("Economic.indicators[profit.vessel]", n=5), cbind( round(var53_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) , stringsAsFactors=F) 
              temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add53_tot) 
              
         var54_tot <- as.numeric(as.character(var40_tot))/as.numeric(as.character(var1_tot))
-    to_add54_tot <- data.frame( cbind(rep("Economic.indicators[net.profit.vessel]", n=5), cbind( round(var54_tot,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ), stringsAsFactors=F) 
+    to_add54_tot <- data.frame( cbind(rep("Economic.indicators[net.profit.vessel]", n=5), cbind( round(var54_tot,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ), stringsAsFactors=F) 
           temp_indicators_fleet_overall <- rbind(temp_indicators_fleet_overall, to_add54_tot) 
   
    
@@ -548,11 +548,11 @@ varsp8 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@revenue
           to_addsp2 <- data.frame(cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep(BMT_SPECIES[m_int], n=5), cbind(rep(year_name_in_row, n=5), cbind(rep("landing.number", n=5), cbind(varsp2, cbind(rep("number", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F)
           to_addsp5 <- data.frame(cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep(BMT_SPECIES[m_int], n=5), cbind(rep(year_name_in_row, n=5), cbind(rep("discard.weight", n=5), cbind(varsp5, cbind(rep("kg", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F)
           to_addsp6 <- data.frame(cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep(BMT_SPECIES[m_int], n=5), cbind(rep(year_name_in_row, n=5), cbind(rep("discard.number", n=5), cbind(varsp6, cbind(rep("number", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F)
-          to_addsp3 <- data.frame(cbind(rep(casestudy_name, n=5), cbind(rep( harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep(BMT_SPECIES[m_int], n=5), cbind(rep(year_name_in_row, n=5), cbind(rep("price", n=5), cbind(varsp3, cbind(rep("€", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F)
-          to_addsp4 <- data.frame(cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep(BMT_SPECIES[m_int], n=5), cbind(rep(year_name_in_row, n=5), cbind(rep("revenues.landing", n=5), cbind(varsp4, cbind(rep("€", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F)
+          to_addsp3 <- data.frame(cbind(rep(casestudy_name, n=5), cbind(rep( harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep(BMT_SPECIES[m_int], n=5), cbind(rep(year_name_in_row, n=5), cbind(rep("price", n=5), cbind(varsp3, cbind(rep("?", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F)
+          to_addsp4 <- data.frame(cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep(BMT_SPECIES[m_int], n=5), cbind(rep(year_name_in_row, n=5), cbind(rep("revenues.landing", n=5), cbind(varsp4, cbind(rep("?", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F)
           
-          to_addsp7 <- data.frame(cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep(BMT_SPECIES[m_int], n=5), cbind(rep(year_name_in_row, n=5), cbind(rep("price.discard", n=5), cbind(varsp7, cbind(rep("€", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F)
-          to_addsp8 <- data.frame(cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep(BMT_SPECIES[m_int], n=5), cbind(rep(year_name_in_row, n=5), cbind(rep("revenues.discard", n=5), cbind(varsp8, cbind(rep("€", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F)		 
+          to_addsp7 <- data.frame(cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep(BMT_SPECIES[m_int], n=5), cbind(rep(year_name_in_row, n=5), cbind(rep("price.discard", n=5), cbind(varsp7, cbind(rep("?", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F)
+          to_addsp8 <- data.frame(cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep(BMT_SPECIES[m_int], n=5), cbind(rep(year_name_in_row, n=5), cbind(rep("revenues.discard", n=5), cbind(varsp8, cbind(rep("?", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F)		 
        
           colnames(to_addsp1) <- head_table
           colnames(to_addsp2) <- head_table
@@ -581,12 +581,12 @@ varsp8 <- as.numeric(as.character(Fleetyear[[yy]]@fleetsegments[[n_int]]@revenue
  numb_digits = 3
  
  var46_a <- as.numeric(as.character(Fleetyear[[foreperiod]]@fleetsegments[[n_int]]@EC.NPV15.CI.perc         ))   
-to_add46_a <- data.frame( cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("Economic.indicators[NPV15]", n=5), cbind(round(var46_a,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F) 
+to_add46_a <- data.frame( cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("Economic.indicators[NPV15]", n=5), cbind(round(var46_a,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F) 
 colnames(to_add46_a) <- head_table
  table_output <- rbind(table_output,  to_add46_a)
 
  var46_b <- as.numeric(as.character(Fleetyear[[foreperiod]]@fleetsegments[[n_int]]@EC.NPV15.infinite.CI.perc         ))   
-to_add46_b <- data.frame( cbind(rep(casestudy_name, n=5), cbind(rep( harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("Economic.indicators[NPV15.infinite]", n=5), cbind( round(var46_b,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F) 
+to_add46_b <- data.frame( cbind(rep(casestudy_name, n=5), cbind(rep( harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep(BMT_FLEETSEGMENTS[n_int], n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("Economic.indicators[NPV15.infinite]", n=5), cbind( round(var46_b,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F) 
 colnames(to_add46_b) <- head_table
  table_output <- data.frame(rbind(table_output,  to_add46_b) , stringsAsFactors=F)
 
@@ -597,7 +597,7 @@ for (PERC in percentiles_numb) {
  NPV15_vect[PERC] <- sum(as.numeric(as.character(table_output$Value[table_output$Variable == "Economic.indicators[NPV15]" &  table_output$quantile == percentiles_numb[PERC]])), na.rm=T) 
  }
  
-to_add46_a_tot <- data.frame( cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("Economic.indicators[NPV15]", n=5), cbind( round(NPV15_vect,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F) 
+to_add46_a_tot <- data.frame( cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("Economic.indicators[NPV15]", n=5), cbind( round(NPV15_vect,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) ) ) ) ) ) ) , stringsAsFactors=F) 
 colnames(to_add46_a_tot) <- head_table
  table_output <- data.frame( rbind(table_output,  to_add46_a_tot), stringsAsFactors=F)
  
@@ -607,7 +607,7 @@ for (PERC in percentiles_numb) {
  NPV15_infinite_vect[PERC] <- sum(as.numeric(as.character(table_output$Value[table_output$Variable == "Economic.indicators[NPV15.infinite]" &  table_output$quantile == percentiles_numb[PERC]])), na.rm=T) 
  }
 
-to_add46_b_tot <- data.frame( cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("Economic.indicators[NPV15.infinite]", n=5), cbind( round(NPV15_infinite_vect,numb_digits), cbind(rep("€", n=5), percentiles_numb)) ) ) ) ) ) ) )  , stringsAsFactors=F) 
+to_add46_b_tot <- data.frame( cbind(rep(casestudy_name, n=5), cbind( rep(harvest_rule_code, n=5), cbind(rep(paste(harvest_rule_code, "-", harvest_rule_level, sep=""), n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("ALL", n=5), cbind(rep("Economic.indicators[NPV15.infinite]", n=5), cbind( round(NPV15_infinite_vect,numb_digits), cbind(rep("?", n=5), percentiles_numb)) ) ) ) ) ) ) )  , stringsAsFactors=F) 
 colnames(to_add46_b_tot) <- head_table
  table_output <- data.frame(rbind(table_output,  to_add46_b_tot) , stringsAsFactors=F)
 
@@ -615,7 +615,7 @@ colnames(to_add46_b_tot) <- head_table
 table_output <- data.frame(cbind(table_output[,colnames(table_output) != "quantile"], cbind(rep("", nrow(table_output)), table_output[,colnames(table_output) == "quantile"]) ), stringsAsFactors=F)
 colnames(table_output)[ncol(table_output)-1] <- "Comments"
   
-# questa è l'istruzione per scrivere il file csv. Il percorso verrà creato a partire dalle variabili nel file di configurazione
+# questa ? l'istruzione per scrivere il file csv. Il percorso verr? creato a partire dalle variabili nel file di configurazione
 # write.table(table_output, file=paste(casestudy_path, "\\", casestudy_name, "_HR", harvest_rule_code, harvest_rule_level," - economic output.csv", sep=""), sep=";", row.names=F)
   print(proc.time() - time_star_eco, quote=F )
 

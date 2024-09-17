@@ -132,7 +132,7 @@ jpeg(filename = paste(casestudy_path, "/Evaluation/Economic evaluation/FORECAST 
 min_GVA <- min(as.numeric(as.character(resGVA_all$Value[resGVA_all$Variable == "gross.value.added"  & resGVA_all$Fleet_segment == FLEET_SEGMENT])))
 max_GVA <-  max(as.numeric(as.character(resGVA_all$Value[resGVA_all$Variable == "gross.value.added"  & resGVA_all$Fleet_segment == FLEET_SEGMENT])))
  par(mar=c(5, 6, 6, 6))  # c(bottom, left, top, right)
-plot( as.numeric(as.character(resGVA$Value))/1000, x=as.numeric(as.character(resGVA$Year)), type="b", col=1, ylim=c(min_GVA,max_GVA+(max_GVA-min_GVA)*0.4)/1000, pch=19, axes=F, ylab="Gross Value Added [,000 €]", xlab="Years", cex.lab=1.5, lwd=2)
+plot( as.numeric(as.character(resGVA$Value))/1000, x=as.numeric(as.character(resGVA$Year)), type="b", col=1, ylim=c(min_GVA,max_GVA+(max_GVA-min_GVA)*0.4)/1000, pch=19, axes=F, ylab="Gross Value Added [,000 ?]", xlab="Years", cex.lab=1.5, lwd=2)
  box()                                              
 axis(1, at=as.numeric(as.character(resGVA$Year)), as.numeric(as.character(resGVA$Year)) , cex.axis=1.3)   
 axis(2, cex.axis=1.3)
@@ -217,7 +217,7 @@ jpeg(filename = paste(casestudy_path, "/Evaluation/Economic evaluation/FORECAST 
 min_SAL <- min(as.numeric(as.character(resSAL_all$Value[resSAL_all$Variable == "average.wage"  & resSAL_all$Fleet_segment == FLEET_SEGMENT])))
 max_SAL <-  max(as.numeric(as.character(resSAL_all$Value[resSAL_all$Variable == "average.wage"  & resSAL_all$Fleet_segment == FLEET_SEGMENT])))
 par(mar=c(5, 6, 6, 6))  # c(bottom, left, top, right)
-plot( as.numeric(as.character(resSAL$Value)), x= as.numeric(as.character(resSAL$Year)), type="b", col=1, ylim=c(min_SAL, max_SAL+(max_SAL-min_SAL)*0.4), pch=19, axes=F, ylab="Average wage [€]", xlab="Years", cex.lab=1.5, lwd=2)
+plot( as.numeric(as.character(resSAL$Value)), x= as.numeric(as.character(resSAL$Year)), type="b", col=1, ylim=c(min_SAL, max_SAL+(max_SAL-min_SAL)*0.4), pch=19, axes=F, ylab="Average wage [?]", xlab="Years", cex.lab=1.5, lwd=2)
 box()
 axis(1, at=as.numeric(as.character(resSAL$Year)), as.numeric(as.character(resSAL$Year)) , cex.axis=1.3)   
 axis(2, cex.axis=1.3)
@@ -551,7 +551,7 @@ jpeg(filename = paste(casestudy_path, "/Evaluation/Economic evaluation/FORECAST 
 min_totRev <- min(as.numeric(as.character(resTotRev_all$Value[resTotRev_all$Variable == "total.revenues"  & resTotRev_all$Fleet_segment == FLEET_SEGMENT]))) / 1000
 max_totRev <-  max(as.numeric(as.character(resTotRev_all$Value[resTotRev_all$Variable == "total.revenues"  & resTotRev_all$Fleet_segment == FLEET_SEGMENT]))) / 1000
  par(mar=c(5, 6, 6, 6))  # c(bottom, left, top, right)
-plot( as.numeric(as.character(resTotRev$Value)), type="b", col=1, ylim=c(min_totRev,max_totRev+(max_totRev-min_totRev)*0.4), pch=19, axes=F, ylab="Total revenue [.000 €]", xlab="Years", cex.lab=1.5, lwd=2)
+plot( as.numeric(as.character(resTotRev$Value)), type="b", col=1, ylim=c(min_totRev,max_totRev+(max_totRev-min_totRev)*0.4), pch=19, axes=F, ylab="Total revenue [.000 ?]", xlab="Years", cex.lab=1.5, lwd=2)
 box()
 axis(1, at=seq(1,length(resTotRev$Year),1), resTotRev$Year, cex.axis=1.3 )   
 axis(2, cex.axis=1.3)

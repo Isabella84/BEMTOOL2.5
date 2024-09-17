@@ -16,7 +16,7 @@
 
 cat("\n\n")
 print("***************************************************************************", quote=FALSE)
-print(paste("SCENARIO n°", BMT_SCENARIO), quote=FALSE)
+print(paste("SCENARIO n?", BMT_SCENARIO), quote=FALSE)
 print("***************************************************************************", quote=FALSE)
 cat("\n\n")
 

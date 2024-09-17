@@ -98,7 +98,7 @@ BMTnotebook$appendPage(vbox_forecast, gtkLabel(str=" Forecast "))
 suppressWarnings(source(paste(getwd(), "/bmtgui/tab_mcda.r", sep="")))					
 BMTnotebook$appendPage(vbox_mcda, gtkLabel(str=" Multi-Criteria Decision Analysis "))
 
-gtkWindowSetPosition(BMTmain_window, 3)  
+gtkWindowSetPosition(BMTmain_window, 3L)  
 
 # la chiamata va all'interno di un bottone dopo la compilazione del file bmtconfig
 # source(paste(getwd(), "/src/runBEMTOOLdiagnosis.r", sep=""))
@@ -180,3 +180,4 @@ gtkWidgetSetSensitive(gtkNotebookGetNthPage(BMTnotebook, 6), F)
 gtkWidgetSetSensitive(gtkNotebookGetNthPage(BMTnotebook, 7), F)
 gtkWidgetSetSensitive(gtkNotebookGetNthPage(BMTnotebook, 8), T)
 }
+
