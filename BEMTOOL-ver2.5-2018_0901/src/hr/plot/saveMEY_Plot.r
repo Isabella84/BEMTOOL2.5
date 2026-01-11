@@ -46,7 +46,7 @@ axis(2, las=1, cex.axis=1.5)  ## las=1 makes horizontal labels
 
  mtext( BMT_sw_version,cex=0.6,side=4,outer=FALSE)
  
-mtext(",000 €",col="blue",side=2,line=6, cex=1.5)
+mtext(",000 ?",col="blue",side=2,line=6, cex=1.5)
 lines(MEYresults$Effort.level,MEYresults$Profit/1000, type="l", col="red", lwd=2, pch=19)   
 abline(v=MEYresults$Effort.level[MEYresults$Profit/1000 == max(MEYresults$Profit/1000)], col="red", lwd=1, lty=2) 
 par(new=TRUE)

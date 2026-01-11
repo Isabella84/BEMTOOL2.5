@@ -39,7 +39,7 @@ fleets_to_plot <- as.character(unique(ECOindicators$Fleet_segment))
 for (ff in 1:length(fleets_to_plot)) {
 
 profit_toplot <- ECOindicators[as.character(ECOindicators$Variable) == "net.profit" & as.character(ECOindicators$Fleet_segment) == fleets_to_plot[ff],1:(ncol(ECOindicators)-1)]
- # R/BER è il rapporto fra "total.revenues" e "Economic.indicators[break.even.revenue]".
+ # R/BER ? il rapporto fra "total.revenues" e "Economic.indicators[break.even.revenue]".
 R_BER_toplot <- ECOindicators[as.character(ECOindicators$Variable) == "Economic.indicators[CR.BER]" & as.character(ECOindicators$Fleet_segment) == fleets_to_plot[ff],1:(ncol(ECOindicators)-1)]
 
 profit_toplot$Value <- as.numeric(as.character(profit_toplot$Value)) / 1000
@@ -150,7 +150,7 @@ legend ("topright", lwd=c(1,1,2,1,1),lty=c(2,3,1,3,2),legend=c( "0.05","0.25","m
        
 axis(1, at=profit_toplot$Year, cex.axis=1.5 )
 axis(2, las=1, cex.axis=1.5)  ## las=1 makes horizontal labels
-mtext(",000 €",col="blue",side=2,line=5, cex=1.5)
+mtext(",000 ?",col="blue",side=2,line=5, cex=1.5)
 mtext(plot_title_sub, 3, line=1, cex=1.3)
 
  if (phase == "FORECAST") {

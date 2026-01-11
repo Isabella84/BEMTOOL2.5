@@ -131,7 +131,7 @@ jpeg(filename = paste(casestudy_path, "/Evaluation/Economic evaluation/Gross Val
 min_GVA <- min(resGVA_all$Value[resGVA_all$Variable == "gross.value.added"  & resGVA_all$Fleet_segment == FLEET_SEGMENT])
 max_GVA <-  max(resGVA_all$Value[resGVA_all$Variable == "gross.value.added"  & resGVA_all$Fleet_segment == FLEET_SEGMENT])
 par(mar=c(5, 6, 6, 6))  # c(bottom, left, top, right)
-plot( resGVA$Value/1000, type="b", col=1, ylim=c(min_GVA,max_GVA+(max_GVA-min_GVA)*0.4)/1000, pch=19, axes=F, ylab="Gross Value Added [,000 €]", xlab="Years", cex.lab=1.5, lwd=2)
+plot( resGVA$Value/1000, type="b", col=1, ylim=c(min_GVA,max_GVA+(max_GVA-min_GVA)*0.4)/1000, pch=19, axes=F, ylab="Gross Value Added [,000 ?]", xlab="Years", cex.lab=1.5, lwd=2)
  box()                                              
 axis(1, at=seq(1,length(resGVA$Year),1), resGVA$Year , cex.axis=1.3)   
 axis(2, cex.axis=1.3)
@@ -213,7 +213,7 @@ jpeg(filename = paste(casestudy_path, "/Evaluation/Economic evaluation/Average w
 min_SAL <- min(resSAL_all$Value[resSAL_all$Variable == "average.wage"  & resSAL_all$Fleet_segment == FLEET_SEGMENT])
 max_SAL <-  max(resSAL_all$Value[resSAL_all$Variable == "average.wage"  & resSAL_all$Fleet_segment == FLEET_SEGMENT])
  par(mar=c(5, 6, 6, 6))  # c(bottom, left, top, right)
-plot( resSAL$Value, type="b", col=1, ylim=c(min_SAL, max_SAL+(max_SAL-min_SAL)*0.4), pch=19, axes=F, ylab="Average wage [€]", xlab="Years", cex.lab=1.5, lwd=2)
+plot( resSAL$Value, type="b", col=1, ylim=c(min_SAL, max_SAL+(max_SAL-min_SAL)*0.4), pch=19, axes=F, ylab="Average wage [?]", xlab="Years", cex.lab=1.5, lwd=2)
 box()
 axis(1, at=seq(1,length(resSAL$Year),1), resSAL$Year , cex.axis=1.3)   
 axis(2, cex.axis=1.3)
@@ -534,7 +534,7 @@ jpeg(filename = paste(casestudy_path, "/Evaluation/Economic evaluation/Total Rev
 min_totRev <- min(resTotRev_all$Value[resTotRev_all$Variable == "total.revenues"  & resTotRev_all$Fleet_segment == FLEET_SEGMENT]) / 1000
 max_totRev <-  max(resTotRev_all$Value[resTotRev_all$Variable == "total.revenues"  & resTotRev_all$Fleet_segment == FLEET_SEGMENT]) / 1000
  par(mar=c(5, 6, 6, 6))  # c(bottom, left, top, right)
-plot( resTotRev$Value, type="b", col=1, ylim=c(min_totRev,max_totRev+(max_totRev-min_totRev)*0.4), pch=19, axes=F, ylab="Total revenue [.000 €]", xlab="Years", cex.lab=1.5, lwd=2)
+plot( resTotRev$Value, type="b", col=1, ylim=c(min_totRev,max_totRev+(max_totRev-min_totRev)*0.4), pch=19, axes=F, ylab="Total revenue [.000 ?]", xlab="Years", cex.lab=1.5, lwd=2)
 box()
 axis(1, at=seq(1,length(resTotRev$Year),1), resTotRev$Year, cex.axis=1.3 )   
 axis(2, cex.axis=1.3)

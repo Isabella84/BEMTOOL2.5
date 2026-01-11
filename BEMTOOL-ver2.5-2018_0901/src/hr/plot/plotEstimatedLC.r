@@ -118,7 +118,7 @@ plot(as.numeric(as.character(vc_toplot$Year)),as.numeric(as.character(vc_toplot$
 lines(as.numeric(as.character(vc_toplot$Year)),as.numeric(as.character(vc_toplot$Value)), type="p", col="blue", lwd=2, pch=19)     
 axis(1, at=as.numeric(as.character(vc_toplot$Year)),cex.axis=1.5 )
 axis(2, las=1, cex.axis=1.5)  ## las=1 makes horizontal labels
-mtext("labour costs [.000 €]",side=2,line=5, cex=1.5)
+mtext("labour costs [.000 ?]",side=2,line=5, cex=1.5)
 mtext(plot_title_sub, 3, line=1, cex=1.3)
 
  if (phase == "FORECAST") {

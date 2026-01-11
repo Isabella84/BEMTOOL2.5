@@ -305,7 +305,7 @@ table_output <- rbind(table_output, to_add)
 
 
 
-# calcolato come D/(Y-D), perché è D/Landing
+# calcolato come D/(Y-D), perch? ? D/Landing
 #to_add <- data.frame(cbind(casestudy_name, cbind( harvest_rule_code, cbind(harvest_rule_id, cbind("ALL", cbind(BMT_SPECIES[ss], cbind(all_the_years[yea], cbind("Discard_ratio", cbind( ifelse(!is.na(Interactionsyear[[yea]][[ss]]@totaldiscard@totalweight) & Interactionsyear[[yea]][[ss]]@totaldiscard@totalweight != -1, Interactionsyear[[yea]][[ss]]@totaldiscard@totalweight, 0) / Interactionsyear[[yea]][[ss]]@totalcatch@totalweight, cbind("", "") ) ) ) ) ) ) ) ) )
 
 if (class(production_table)=="try-error") {

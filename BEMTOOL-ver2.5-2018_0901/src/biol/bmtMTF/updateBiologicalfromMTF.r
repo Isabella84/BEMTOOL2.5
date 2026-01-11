@@ -51,7 +51,7 @@ mid_ages <-  c(0:(life_span-1)) + 0.5
 mid_lengths <- c(0:(life_span-1))
 for (ag in 1:length(mid_ages)) { mid_lengths[ag] <- VB(mid_ages[ag],linf,k,t0) }
 
-# ciclo sulle età (per gli anni del forecast)   prendere la terza colonna (50%)   splittare per sex ratio     da moltiplicare per 1000 (in MTF sono migliaia)
+# ciclo sulle et? (per gli anni del forecast)   prendere la terza colonna (50%)   splittare per sex ratio     da moltiplicare per 1000 (in MTF sono migliaia)
 mtf_res_stocknumber <-as.data.frame(stock.n(MTFresult))                 
 mtf_res_stock_mean_w <- as.data.frame(stock.wt(MTFresult))
 mtf_res_ssb <- as.data.frame(ssb(MTFresult))
